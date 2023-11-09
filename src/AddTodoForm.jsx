@@ -3,7 +3,7 @@ import React from 'react'
 const AddTodoForm = ({ todo, onAddFormSubmit, onAddInputChange }) => {
     return (
         <div className='rounded-lg bg-slate-400 pr-[5px] pb-[7px]'>
-          <form onSubmit={onAddFormSubmit} className='rounded-lg p-4 font-itim bg-slate-300'>
+          <form onSubmit={onAddFormSubmit} className='rounded-lg p-4 font-itim bg-slate-300' autoComplete='off'>
           <input 
             className='p-2 w-[20rem] rounded-lg'
             type="text" 
