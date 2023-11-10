@@ -5,7 +5,7 @@ const AddTodoForm = ({ todo, onAddFormSubmit, onAddInputChange }) => {
         <div className='rounded-lg bg-slate-400 pr-[5px] pb-[7px]'>
           <form onSubmit={onAddFormSubmit} className='rounded-lg p-4 font-itim bg-slate-300' autoComplete='off'>
           <input 
-            className='p-2 w-[20rem] rounded-lg'
+            className='p-2 w-[10rem] rounded-lg'
             type="text" 
             name="todo" 
             placeholder="Create a new todo"

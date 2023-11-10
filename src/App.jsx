@@ -83,7 +83,7 @@ const App = () => {
 
   return (
     <div className="flex justify-center h-screen bg-slate-600 overflow-hidden">
-      <div className='flex flex-col items-center bg-white my-4 p-11 w-[50rem]  rounded-lg '>
+      <div className='flex flex-col items-center bg-white my-4 p-11 w-[40rem]  rounded-lg '>
       <h1 className='text-4xl font-itim mb-3'>Todo List</h1>
 
       {isEditing ? (
